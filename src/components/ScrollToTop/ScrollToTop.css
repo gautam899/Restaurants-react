@@ -1,0 +1,17 @@
+.app__scrollToTop {
+  bottom: 20px;
+  right: -100px;
+  cursor: pointer;
+  padding: 10px;
+  color: #000;
+  border-radius: 5px;
+  background-color: #ffd700;
+  font-size: 20px;
+  font-weight: 600;
+  z-index: 1000;
+  position: fixed;
+  transition: transform 0.3s ease; /* Add transition */
+}
+.app__scrollToTop.show {
+  transform: translateX(-120px); /* Move into the screen */
+}
